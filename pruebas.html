@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+    <style>
+        /* Estilos para el modo claro */
+        body {
+            background-color: white;
+            color: black;
+            transition: background-color 0.7s ease, color 0.7s ease;
+        }
+
+        /* Estilos para el modo oscuro */
+        body.dark-mode {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Aquí va el contenido de tu página -->
+
+    <!-- Botón para cambiar entre los modos claro y oscuro -->
+    <button onclick="toggleDarkMode()">Cambiar Modo</button>
+
+    <script>
+        // Función para cambiar el modo entre claro y oscuro
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+
+        }
+    </script>
+</body>
+</html>

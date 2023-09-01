@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mateo Carrizo - Portfolio</title>
+    <link rel="icon" href="Imagenes/icono-pag.svg" type="image/png"/>
+</head>
+<body>
+        <nav>
+            <button id="botonScroll" class="hidden" onclick="scrollToEtiqueta('container-1')"> <p id="flecha">➤</p> </button>
+            <div id="box">
+                <a href="index.html" id="logo"> < Mateo /></a>
+                <div id="items">
+                <button onclick="scrollToEtiqueta('container-1')" class="botones">
+                    <span class="label-botones">Inicio</span>
+                </button>
+                <button onclick="scrollToEtiqueta('skills')" class="botones">
+                    <span class="label-botones">Habilidades</span>
+                </button>
+                <button onclick="scrollToEtiqueta('conexion-proyectos')" class="botones">
+                    <span class="label-botones">Proyectos</span>
+                </button>
+                <button onclick="scrollToEtiqueta('contacto')" class="botones">
+                    <span class="label-botones">Contactame</span>
+                </button>
+
+                
+            </div>
+            </div>
+        <div class="presentacion">
+            <div id="container-1">
+                <div id="box1">
+                <h1 id="text">
+                    <span id="saludo">Hola,</span>
+                        Soy 
+                    <span id="myname">
+                        Mateo
+                    </span>
+                </h1>
+                <h2>
+                    <span>Desarrollador y estudiante</span>
+                </h2>
+                <p id="presentacion">
+                    Soy un desarrollador de software en busca de oportunidades para crecer y desarrollarme profesionalmente. Estoy emocionado por seguir desarrollándome en el campo de la programación y crecer como profesional. Mi objetivo es trabajar en un entorno que me brinde la oportunidad de aprender de expertos en la industria y contribuir en proyectos significativos.
+                </p>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/matu.carrizo_/?theme=dark" class="icon icon--instagram">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="icon icon--twitter">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        </a>
+                        <a href="https://github.com/MatuCarrizo" class="icon icon--github">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="container-2"></div>
+        </div>
+        </nav>
+    <section id="skills">
+        <div id="skills-container">
+            <div id="skills-container-img">
+                <img src="Imagenes/skills.svg" alt="" id="imagen-skill">     
+            </div>
+            <div id="skills-container-text">
+                <h1 id="title">Mis habilidades</h1>
+                <div id="skills-items">
+                    <div class="logos" id="python">
+                        <div class="title-logos">
+                            <h3>Python</h3>
+                        </div>
+                        <div class="img-logos">
+                            <img class="img-log" src="Imagenes/skills/python.svg" alt="python">
+                        </div>
+                    </div>
+                    <div class="logos" id="python">
+                        <div class="title-logos">
+                            <h3>Java</h3>
+                        </div>
+                        <div class="img-logos">
+                            <img class="img-log" src="Imagenes/skills/java.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="logos" id="python">
+                        <div class="title-logos">
+                            <h3>C#</h3>
+                        </div>
+                        <div class="img-logos">
+                            <img class="img-log" src="Imagenes/skills/c-sharp.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="skills-items">
+                    <div class="logos" id="python">
+                        <div class="title-logos">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="img-logos">
+                            <img class="img-log" src="Imagenes/skills/html-5.svg" alt="python">
+                        </div>
+                    </div>
+                    <div class="logos" id="python">
+                        <div class="title-logos">
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="img-logos">
+                            <img class="img-log" src="Imagenes/skills/css-3.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="logos" id="python">
+                        <div class="title-logos">
+                            <h3>Wordpress</h3>
+                        </div>
+                        <div class="img-logos">
+                            <img class="img-log" src="Imagenes/skills/git.svg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="titulo-proyecto-div">
+            <h1 id="titulo-proyectos">Proyectos</h1>
+        </div>
+    </section>
+    <div class="conexion" id="conexion-proyectos"></div>
+    <div id="proyectos">
+        <div id="proyecto"> 
+            <div id="info-proyecto">
+                <h1 id="titulo-proyecto1">Login and register</h1>
+                <p id="descripcion-proyecto"> Un proyecto trabajado en su totalidad con <span class="resaltado"> Python </span> y la libreria " <span class="resaltado"> Tkinter </span>", destinada a realizar <span class="resaltado"> interfaces graficas </span> con este mismo lenguaje.
+                </p>
+                <p id="descripcion-proyecto">	
+                    " <span class="resaltado"> Login and register </span> " esta realizado con una base de datos construida
+                    con archivos " <span class="resaltado"> .txt </span> ". En el mismo, los usuarios nuevos
+                    pueden registrarse indicando sus datos, los cuales son almacenados
+                    cada uno en su respectivo archivo. La contraseña es almacenada con su
+                    correspondiente " <span class="resaltado"> hash </span> " para asi no ser decodificada facilmente.
+                </p>
+                <h3 id="subtitulo-proyecto">Tecnologias usadas</h3>
+                <div id="tech-usada" class="img-logos">
+                    <img class="img-log" src="Imagenes/skills/python.svg" alt="python">
+                </div>
+            </div>
+            <div id="foto-proyecto">
+                <img src="Imagenes/Proyectos/Login.jpg" alt="" id="login">
+            </div>
+        </div>
+        <div class="conexion-2" id="conexion-proyectos-2"></div>
+    </div>
+    
+    <div id="conector-final"></div>
+    <div id="contacto">
+        <h2 id="titulo-final">Contacta conmigo</h2>
+        <div id="division">
+            <div id="conecta-conmigo">
+                <h2 id="titulo-contacto"></h2>
+                <div id="contactos">
+                    <ul>
+                        <li class="contactos"><a href="https://github.com/MatuCarrizo" class="contactos"> <img src="Imagenes/Contactos/github.svg" alt="" class="iconos-contacto"> Github</a></li>
+                        <li class="contactos"><a href="https://www.linkedin.com/in/mateo-carrizo-a55471243/" class="contactos"> <img src="Imagenes/Contactos/linkedin.svg" alt="" class="iconos-contacto"> LinkedIn</a></li>
+                        <li class="contactos"><a href="" class="contactos"> <img src="Imagenes/Contactos/twitter.svg" alt="" class="iconos-contacto"> Twitter</a></li>
+                        <li class="contactos"><a href="" class="contactos"> <img src="Imagenes/Contactos/email.svg" alt="" class="iconos-contacto"> Carrizomateo2003@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="casillas">
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        function scrollToEtiqueta(id) {
+            const etiqueta = document.getElementById(id);
+            etiqueta.classList.add("show");
+            etiqueta.scrollIntoView({ behavior: "smooth" });
+        }
+
+    </script>
+
+    <script>
+        window.onscroll = function() { mostrarBotonScroll() };
+
+        function mostrarBotonScroll() {
+        var botonScroll = document.getElementById("botonScroll");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            botonScroll.classList.remove("hidden");
+        } else {
+            botonScroll.classList.add("hidden");
+        }
+        }
+    </script>
+
+</body>
+</html>
